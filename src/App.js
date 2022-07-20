@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import ProductDetail from "./components/productDetail/ProductDetail";
 import ProductList from "./components/productList/ProductList";
-import Sidebar from "./components/socialmedialinks/Sidebar";
+
 import axios from "axios";
 
 function App() {
@@ -31,7 +31,6 @@ function App() {
 
   return (
     <div>
-      <Sidebar />
       <ProductDetail productToBeDisplayed={productToDisplay} />
       <ProductList productCards={products} displayProduct={selectedProduct} />
     </div>

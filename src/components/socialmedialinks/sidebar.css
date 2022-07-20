@@ -3,11 +3,13 @@
     height: fit-content;
     margin: 20px;
     padding-bottom: 30px;
+    margin-top: 20%;
     background-color: #fdfbfb;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
     
   }
   
@@ -78,5 +80,5 @@
   }
   
   a.instagram {
-    color: black;
+    color: rgb(117, 20, 20);
   }

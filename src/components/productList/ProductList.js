@@ -3,7 +3,7 @@ import { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "./carousel.css";
+import "./productList.css";
 
 export default function Carousel(props) {
   const { productCards, displayProduct } = props;
@@ -23,7 +23,7 @@ export default function Carousel(props) {
 
   return (
     <div className="content">
-      <Slider ref={setSliderRef} {...sliderSettings}>
+      <Slider className="slider" ref={setSliderRef} {...sliderSettings}>
         {productCards.map((card, index) => (
           <div key={index}>
             <img alt={card.title} src={card.image} width="200" height="200" />

@@ -1,3 +1,10 @@
 .btn{
     cursor: pointer;
 }
+.content{
+padding:30px;
+
+}
+.slider{
+    max-width: 200%
+}
