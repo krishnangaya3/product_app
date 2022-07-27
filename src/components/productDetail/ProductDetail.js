@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import Sidebar from "../socialmedialinks/Sidebar";
 import Rating from "@mui/material/Rating";

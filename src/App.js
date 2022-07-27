@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import ProductDetail from "./components/productDetail/ProductDetail";
 import ProductList from "./components/productList/ProductList";
-
 import axios from "axios";
 
 function App() {
